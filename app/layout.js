@@ -9,7 +9,7 @@ const poppins = Poppins({
 });
 
 export const metadata = {
-  title: "Rizwan | Next JS Portfolio",
+  title: "Rizwan | Next JS & Tailwind CSS Portfolio",
   description: "Rizwan | Next JS & Tailwind CSS Portfolio",
 };
 

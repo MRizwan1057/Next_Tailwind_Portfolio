@@ -32,9 +32,11 @@ const Banner = () => {
         transition={{ duration: 0.5, delay: 0.8 }}
         className="text-base md:max-w-[650px] text-textDark font-medium"
       >
-        I'm a Web and App developer with 3+ years of experience, innovating and
-        developing responsive mobile applications and web applications that
-        integrate with responsive mobile applications and web applications
+        "Meet a versatile Web and App Developer, the tech enthusiast with a
+        passion for crafting seamless digital experiences. With a flair for both
+        front-end and back-end development, they turn ideas into reality,
+        blending innovation with functionality. Get ready to witness captivating
+        websites and mobile applications that leave users in awe."
         <a href="#" className="block">
           <span className="text-teal-800 dark:text-textGreen  inline-flex relative cursor-pointer h-7  overflow-x-hidden group">
             Get to Know
