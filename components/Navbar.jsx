@@ -44,8 +44,8 @@ const Navbar = () => {
                 transition={{ duration: 0.1, delay: 0.3 }}
               >
                 <Link
-                  className="flex items-center gap-1 font-bold   uppercase dark:text-textDark hover:text-textLight dark:hover:text-textGreen cursor-pointer duration-300 nav-link"
                   href="/about"
+                  className="flex items-center gap-1 font-bold   uppercase dark:text-textDark hover:text-textLight dark:hover:text-textGreen cursor-pointer duration-300 nav-link"
                 >
                   <span className="text-teal-800 dark:text-textGreen">A</span>
                   bout
@@ -57,8 +57,8 @@ const Navbar = () => {
                 transition={{ duration: 0.1, delay: 0.3 }}
               >
                 <Link
-                  className="flex items-center gap-1 font-bold uppercase dark:text-textDark hover:text-textLight  dark:hover:text-textGreen cursor-pointer duration-300 nav-link"
                   href="/skills"
+                  className="flex items-center gap-1 font-bold uppercase dark:text-textDark hover:text-textLight  dark:hover:text-textGreen cursor-pointer duration-300 nav-link"
                 >
                   <span className="text-teal-800 dark:text-textGreen">S</span>
                   kills
@@ -70,8 +70,8 @@ const Navbar = () => {
                 transition={{ duration: 0.1, delay: 0.3 }}
               >
                 <Link
-                  className="flex items-center gap-1 font-bold uppercase dark:text-textDark hover:text-textLight   dark:hover:text-textGreen cursor-pointer duration-300 nav-link"
                   href="/projects"
+                  className="flex items-center gap-1 font-bold uppercase dark:text-textDark hover:text-textLight   dark:hover:text-textGreen cursor-pointer duration-300 nav-link"
                 >
                   <span className="text-teal-800 dark:text-textGreen">P</span>
                   rojects
@@ -83,8 +83,8 @@ const Navbar = () => {
                 transition={{ duration: 0.1, delay: 0.3 }}
               >
                 <Link
-                  className="flex items-center gap-1 font-bold uppercase dark:text-textDark hover:text-textLight dark:hover:text-textGreen cursor-pointer duration-300 nav-link"
                   href="/contact"
+                  className="flex items-center gap-1 font-bold uppercase dark:text-textDark hover:text-textLight dark:hover:text-textGreen cursor-pointer duration-300 nav-link"
                 >
                   <span className="text-teal-800 dark:text-textGreen">C</span>
                   ontact
