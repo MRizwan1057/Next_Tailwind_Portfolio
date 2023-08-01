@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { AiFillThunderbolt } from "react-icons/ai";
 
-import authorImg from "@/public/author.jpg";
+import authorImg from "@/public/author.jpeg";
 
 const About = () => {
   return (
@@ -86,11 +86,11 @@ const About = () => {
           <div className="absolute w-full h-80 -left-6 -top-6 rounded-lg">
             <div className="w-full h-full relative z-20 flex pl-6 lg:pl-0">
               <Image
-                src="/../public/author.jpeg"
+                src={authorImg}
                 alt="author image"
                 className="rounded-lg object-cover"
-                width="360"
-                height="555"
+                // width="360"
+                // height="555"
               />
 
               <div className="hidden lg:inline-block absolute w-full h-80 bg-textGreen/20 rounded-md top-0 left-0 group-hover:bg-transparent duration-300"></div>
