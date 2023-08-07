@@ -122,12 +122,12 @@ const Navbar = () => {
             </div>
           </div>
         </div>
-        {/* mobile menu */}
       </div>
+      {/* mobile menu */}
       <div
         className={` ${
           nav ? "block" : "hidden"
-        } mobMenu w-full h-screen py-11 px-7 bg-textLight dark:bg-hoverColor  mx-auto rounded-b-md md:hidden`}
+        }  mobMenu z-50 fixed w-full h-screen py-11 px-7 bg-black dark:bg-black  mx-auto rounded-b-md md:hidden`}
       >
         <ul className="w-full flex flex-col items-center justify-center text-center text-[13px] gap-4 px-4">
           <li className="border-b-4 border-bodyColor w-full">
