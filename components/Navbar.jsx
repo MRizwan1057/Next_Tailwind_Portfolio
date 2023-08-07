@@ -23,7 +23,7 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="w-full shadow-navbarShadow h-20 lg:h-[9vh] sticky top-0 z-50 px-4 dark:bg-bodyColor">
+      <div className="w-full shadow-navbarShadow h-20 lg:h-[9vh] sticky top-0 z-70 px-4 dark:bg-bodyColor">
         <div className="max-w-container h-full mx-auto py-1 flex items-center justify-between">
           <motion.div
             initial={{ opacity: 0 }}
@@ -127,7 +127,7 @@ const Navbar = () => {
       <div
         className={` ${
           nav ? "block" : "hidden"
-        }  mobMenu z-50 fixed w-full h-screen py-11 px-7 bg-black dark:bg-black  mx-auto rounded-b-md md:hidden`}
+        }  mobMenu z-50 fixed w-full h-screen py-11 px-7 bg-black mx-auto rounded-b-md md:hidden`}
       >
         <ul className="w-full flex flex-col items-center justify-center text-center text-[13px] gap-4 px-4">
           <li className="border-b-4 border-bodyColor w-full">
