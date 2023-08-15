@@ -35,6 +35,10 @@ const Project = () => {
       title: "Digital Watch",
       details: "A Digital Watch App using React js",
     },
+    {
+      title: "Text Analyzer",
+      details: "A Text analyzing app using React js",
+    },
   ];
   return (
     <>
