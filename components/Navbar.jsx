@@ -24,7 +24,7 @@ const Navbar = () => {
   return (
     <>
       <div className="w-full shadow-navbarShadow h-20 lg:h-[9vh] sticky top-0 z-70 px-4 dark:bg-bodyColor">
-        <div className="max-w-container h-full mx-auto py-1 flex items-center justify-around">
+        <div className="max-w-container h-full mx-auto py-1 flex items-center justify-around ">
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
